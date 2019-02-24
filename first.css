@@ -20,7 +20,9 @@
 }
 
 /*Main content*/
-
+.container{
+  width: 100%;
+}
 .topContent{
   background-color: #f2f2f2;
   color: black;

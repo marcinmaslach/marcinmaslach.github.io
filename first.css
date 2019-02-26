@@ -1,0 +1,101 @@
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #333;
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+/*Main content*/
+.container{
+  width: 100%;
+}
+.topContent{
+  background-color: #f2f2f2;
+  color: black;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  width: auto;
+}
+.aboutMe{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.technologies{
+  background-color: #efefef;
+  color: black;
+  border: 80px solid #black;
+  border-collapse: separate;
+  border-top-left-radius: 90px;
+  border-top-right-radius: 90px;
+  text-align: center;
+}
+.projects{
+  background-color: #f2f2f2;
+  color: black;
+  text-align: center;
+}
+.technologies2{
+  background-color: #efefef;
+  color: black;
+  border: 80px solid #black;
+  border-collapse: separate;
+  border-bottom-left-radius: 90px;
+  border-bottom-right-radius: 90px;
+  text-align: center;
+  box-shadow: 10px 10px 5px grey;
+}
+.row{
+  width: auto;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 2px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.img-rounded{
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+.contact1{
+  background-color:#f7dd18;
+  color: black;
+  border: 80px solid #black;
+  border-collapse: separate;
+  border-top-left-radius: 90px;
+  border-top-right-radius: 90px;
+  text-align: center;
+}
+.contact2{
+  background-color: #f7dd18;
+  color: black;
+  border: 80px solid #black;
+  border-collapse: separate;
+  border-bottom-left-radius: 90px;
+  border-bottom-right-radius: 90px;
+  text-align: center;
+}
+.end{
+  background-color: #222222;
+  color: #f2f2f2;
+}

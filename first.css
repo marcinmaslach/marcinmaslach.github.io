@@ -111,6 +111,10 @@ body{
   border-bottom-right-radius: 90px;
   text-align: center;
 }
+#s1{
+  width: 100%;
+  height: 100%;
+}
 .end{
   background-color: #222222;
   color: #f2f2f2;
